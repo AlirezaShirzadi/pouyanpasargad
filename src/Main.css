@@ -1,0 +1,265 @@
+:root{
+    --blue : #4da6ff;
+    --white : white;
+    --lime: #ffff4d;
+}
+
+body{
+    font-family: 'Yekan';
+}
+
+/*NavBar and Header Start*/
+
+.my-personal-navbar{
+    background-color: var(--blue);
+    padding: 0px 15px;
+}
+
+.my-nav-item{
+    background-color: var(--blue);
+    padding: 0px 20px 0px 20px;
+    margin: 0px 5px;
+}
+
+.dropdown-menu{
+    background-color: var(--blue);
+}
+
+.dropdown-item{
+    padding: 5px 5px;
+    width: auto;
+}
+
+.my-nav-item:hover, .my-nav-item.active{
+    background-color: var(--lime);
+    border-radius: 10px;
+}
+.my-collapse{
+    margin: 0px;
+}
+
+.nav-link{
+    color: black;
+}
+
+.nav-link:hover , .nav-link.active{
+    color: black;
+}
+
+/*NavBar and Header End*/
+
+/*Header Img & Title Start*/
+.header-img{
+    background-image: url('./img/header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+
+.header-img .title-box{
+    background-color: rgba(255, 255, 77 , .8);
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 77, 0.2), 0 6px 20px 0 rgba(255, 255, 77, 0.19);
+}
+
+.title-box .titles{
+    color: var(black);
+}
+/*Header Img & Title End*/ 
+
+/*Producs Section*/
+.product-section{
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.product-section .title-box .first-title{
+    background-color: var(--lime);
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    border-radius: 2px;
+    font-size: 3rem;
+}
+
+.product-section .title-box .second-title{
+    font-size: 3rem;
+}
+
+.product-section .product-item .product-img{
+    max-width: 400px;
+    max-height: 400px;
+    transition: transform .2s;
+}
+
+.product-section .product-item .product-img:hover{
+    transform: scale(1.1);
+}
+
+.product-section .product-item .product-description{
+    background-color: var(--blue);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.product-section .product-item .product-description .product-link{
+    color: black;
+    text-decoration: none;
+}
+
+.product-section .product-item .product-description .product-link:hover{
+    opacity: .7;
+    transition: .3s;
+}
+
+/* Quote Section */
+
+.quote-section{
+    background-image: linear-gradient(rgba(0,0,0,0.7) , var(--blue)) , url('./img/Quote.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+}
+
+.quote-section .quote-title{
+    color: white;
+}
+
+.quote-section .quote-description{
+    color: var(--lime);
+}
+
+/* Services Section */
+
+.services-section{
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.services-section .title-box .first-title{
+    background-color: var(--lime);
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    border-radius: 2px;
+    font-size: 3rem;
+}
+
+.services-section .title-box .second-title{
+    font-size: 3rem;
+}
+
+.services-section .services .single-service .service-img{
+    max-width: 400px;
+    max-height: 400px;
+    transition: transform .2s;
+}
+
+.services-section .services .single-service .service-img:hover{
+    transform: scale(1.1);
+}
+
+.services-section .services .single-service .service-description{
+    background-color: var(--lime);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: black;
+    min-height: 320px;
+    max-width: 400px;
+}
+
+.services-section .services .single-service .single-service-title{
+    color: black;
+}
+
+/*Partners Section*/
+
+.partners-section{
+    background-image: linear-gradient(var(--lime) , rgba(0,0,0,.7)) , url('./img/Partners.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+}
+
+.partners-section .partners{
+   align-self: center;
+}
+
+.footer-section{
+    background-color: var(--blue);
+    color: white;
+    height: 400px;
+}
+
+.footer-section img{
+    height: auto;
+    max-width: 100%;
+}
+
+.footer-banner{
+    background-color: var(--lime);
+    color: black;
+}
+
+.footer-banner .banner-text span{
+    color: red;
+}
+
+/*One Product*/
+
+.one-product-section .one-product-header{
+    background-image: linear-gradient(var(--lime) , rgba(0,0,0,.7)) , url('./img/CarpetHeader.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    color: white;
+}
+
+.one-product-section .one-product-header1{
+    background-image: linear-gradient(var(--lime) , rgba(0,0,0,.7)) , url('./img/HandyCraftHeader.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    color: white;
+}
+
+.one-product-section .one-product-header2{
+    background-image: linear-gradient(var(--lime) , rgba(0,0,0,.7)) , url('./img/Nuts.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    color: white;
+}
+
+.one-product-section .one-product-header3{
+    background-image: linear-gradient(var(--lime) , rgba(0,0,0,.7)) , url('./img/HerbalHeader.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    color: white;
+}
+
+.one-product-section .one-product-header4{
+    background-image: linear-gradient(var(--lime) , rgba(0,0,0,.7)) , url('./img/Instruction.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    color: white;
+}
+
+.one-product-section .one-product-header5{
+    background-image: linear-gradient(var(--lime) , rgba(0,0,0,.7)) , url('./img/Mineral.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    color: white;
+}
+
+.one-product-section .one-product-description{
+    background-color: rgba(0, 0, 0, .1);
+}
